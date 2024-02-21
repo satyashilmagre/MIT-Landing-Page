@@ -95,12 +95,10 @@ body {
     padding: 8px 25px;
 }
 
-.page3{
-    width: 100%;
-    height: 450px;
-    background-color: aqua;
-    /* margin-top: 23rem; */
-  }
+.page-three{
+  background-color: aquamarine;
+  /* height: 300px; */
+}
   .ima{
    position: relative;
    right: 200px;
@@ -117,23 +115,24 @@ body {
   .table-img{
     width: 100%;
   }
-  .pheading{
-    position: absolute;
-    left: 630px;
-    top: 1490px;
-    color:white;
-    padding: 0px;
-    font-size: 18px;
-    margin: 25px;
-  }
-  .theading{
 
-    position: absolute;
-    left: 630px;
-    top: 1550px;
+  .section-four{
+    background-image: url(../image/table.jpg);
+    height: 14rem;
+    width:100%;
+    background-repeat: no-repeat;
+    /* display: flex;
+    justify-content: end; */
+
+  }
+  .pheading{
+    
+  
     color:white;
-    line-height: 2.5;
-    list-style-type: square;
+    color: #111;
+    
+    font-size: 17px;
+    /* margin: 25px; */
   }
   .about-text {
     margin-bottom:7px;
@@ -141,7 +140,7 @@ body {
   }
 
   .abo{
-    margin-top: 50px;   
+    margin-top:7rem;   
     margin-right:10px;
     text-align: center;
     font-size: 13px;
@@ -153,10 +152,8 @@ body {
   }
 .pro1{
     color:black;
-    position: absolute;
-    top: 1060px;
-    left: 500px;
-    background-color: white;
+    text-align: center;
+    margin-bottom: 0.8rem;
     font-size: 19px;
     padding: 12px;
   }
@@ -164,19 +161,14 @@ body {
   display: flex;
   gap: 5rem;
   margin-left: 8rem;
-  margin-top: 25rem;
+  /* margin-top: 25rem; */
 }
 .pagethree{
-  /* position: relative; */
-  /* display: inline-block; */
-  /* display: flex;
-  gap: 3rem;
-  margin-left: 10rem; */
-  /* margin: 20px; */
-  text-align: center;
-  /* top: 115px; */
-  font-size: 12px;
-  /* left: 100px; */
+text-align: center;
+font-size: 12px;
+margin:1rem 0 3rem 0;
+
+ 
 } 
 .pagethree-img{
   height: 75px;
@@ -202,22 +194,15 @@ li:before {
   top: 0.6em;
   position: relative;
 }
-.eligility{
-  position: absolute;
-    left: 1200px;
-    top: 1470px;
+/* .eligility{
     color:#005c8b;
     font-size: 11px;
-    margin: 25px;
     background-color: aqua;
     padding: 11px;
     border-radius: 4px;
     text-align: center;
-  }
-  .pfee{
-  position: absolute;
-    left: 1200px;
-    top: 1600px;
+  } */
+  /* .pfee{
     color:#005c8b;
     padding: 0px;
     font-size: 11px;
@@ -225,10 +210,10 @@ li:before {
     background-color: aqua;
     text-align: center;
     padding: 14px;
-    padding-right: 38px;
+  
     border-radius: 4px;
 
-}
+} */
 .backimg{
   position: absolute;
   left: 900px;
@@ -236,8 +221,7 @@ li:before {
 
  }
  .program-text{
-  position: relative;
-  top: 50px;
+  margin: 2rem;
   color: #005c8b;
   font-size: 15px;
   left: 20px;
